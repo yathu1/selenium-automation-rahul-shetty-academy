@@ -13,6 +13,7 @@ public class DynamicDropDown {
         // Wait for the dropdown to update
         Thread.sleep(2000L);
         // Select the second city from the dropdown
-        driver.findElement(By.xpath("(//a[@value='MAA'])[2]")).click();
+      //  driver.findElement(By.xpath("(//a[@value='MAA'])[2]")).click();
+        driver.findElement(By.xpath("//div[@id='glsctl00_mainContent_ddl_destinationStation1_CTNR']//a[@value='MAA']")).click();
     }
 }
